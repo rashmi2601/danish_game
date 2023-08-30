@@ -35,22 +35,22 @@ let gameOver = setInterval(() => {
     // console.log("blockleft: " + danishTop); 
   
 
-    if (touch===5){
+    if (touch===100){
         result.style.display = "block";
 
          game_container.style.display = "none";
 
-    score.innerHTML = `score:${count}`;
+    // score.innerHTML = `score:${count}`;
     alert("game over Danish");
-    console.log("game over",touch);
+    // console.log("game over",touch);
 
 
     }
 
     // game_container.style.display = "none";
 
-    // score.innerHTML = `score:${count}`;
+    score.innerHTML = `score:${count}`;
     // alert("game over Danish");
 
   }
-}, 1000);
+}, 10);
